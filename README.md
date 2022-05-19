@@ -14,7 +14,7 @@
 
 
 
-<img width="40%" align="right" src="https://github.com/eltos/SimpleDialogFragments/raw/main/media/screenshot.png"/>
+<img width="40%" align="right" src="https://github.com/ParklyInc/SimpleDialogFragments/raw/main/media/screenshot.png"/>
 
 SimpleDialogFragments Library is a collection of easy to use and extendable DialogFragment's for Android.
 It is fully compatible with rotation changes and can be implemented with only a few lines of code.
@@ -109,7 +109,7 @@ Known extensions and projects using this library:
 
 ## License
 
-Copyright 2017-2021 Philipp Niedermayer ([github.com/eltos](https://github.com/eltos))
+Copyright 2017-2021 Philipp Niedermayer ([github.com/eltos](https://github.com/ParklyInc))
 
 Licensed under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)  
 
