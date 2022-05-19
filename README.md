@@ -1,11 +1,11 @@
-# DialogFragments
+# SimpleDialogs
 
 [![API 14+](https://img.shields.io/badge/API-14+-green.svg)](https://developer.android.com/about/dashboards/index.html#Platform)
 [![Maven Central](https://img.shields.io/maven-central/v/io.github.ParklyInc/simpledialogfragments.svg)](https://search.maven.org/artifact/io.github.ParklyInc/simpledialogfragments)
-[![JitPack](https://jitpack.io/v/ParklyInc/SimpleDialogFragments.svg)](https://jitpack.io/#ParklyInc/SimpleDialogFragments)
-[![Code Climate Rating](https://codeclimate.com/github/ParklyInc/SimpleDialogFragments/badges/gpa.svg)](https://codeclimate.com/github/ParklyInc/SimpleDialogFragments)
-[![Github CI](https://github.com/ParklyInc/SimpleDialogFragments/actions/workflows/build.yml/badge.svg)](https://github.com/eltos/SimpleDialogFragments/actions/workflows/build.yml)
-[![License](https://img.shields.io/github/license/ParklyInc/simpledialogfragments.svg)](https://github.com/ParklyInc/SimpleDialogFragments#license)
+[![JitPack](https://jitpack.io/v/ParklyInc/SimpleDialog.svg)](https://jitpack.io/#ParklyInc/SimpleDialog)
+[![Code Climate Rating](https://codeclimate.com/github/ParklyInc/SimpleDialog/badges/gpa.svg)](https://codeclimate.com/github/ParklyInc/SimpleDialog)
+[![Github CI](https://github.com/ParklyInc/SimpleDialog/actions/workflows/build.yml/badge.svg)](https://github.com/Parkly/SimpleDialog/actions/workflows/build.yml)
+[![License](https://img.shields.io/github/license/ParklyInc/simpledialogfragments.svg)](https://github.com/ParklyInc/SimpleDialog#license)
 
 
 
@@ -14,7 +14,7 @@
 
 <img width="40%" align="right" src="https://github.com/ParklyInc/SimpleDialogFragments/raw/main/media/screenshot.png"/>
 
-DialogFragments Library is a collection of easy to use and extendable DialogFragment's for Android.
+SimpleDialog Library is a collection of easy to use and extendable DialogFragment's for Android.
 It is fully compatible with rotation changes and can be implemented with only a few lines of code.
 
 A new approach of result handling ensures data integrity over rotation changes, that many other libraries lack.
