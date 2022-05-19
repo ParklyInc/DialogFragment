@@ -1,0 +1,52 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+}
+
+android {
+    compileSdkVersion 31
+
+    defaultConfig {
+        applicationId 'parkly.simpledialogfragments.test'
+        minSdkVersion 14
+        targetSdkVersion 31
+        versionCode rootProject.ext['VERSION_NR']
+        versionName rootProject.ext['VERSION']
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+repositories {
+    //mavenLocal()
+    //maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    testImplementation  'junit:junit:4.13.2'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'com.google.android.flexbox:flexbox:3.0.0'
+    implementation 'com.google.zxing:core:3.3.3'
+
+    // sonatype maven
+    //implementation 'io.github.eltos:simpledialogfragments:3.5.1'
+
+    // jitpack
+    //implementation 'com.github.eltos:simpledialogfragments:v3.5'
+
+    // local project
+    api project(path: ':simpledialogfragments')
+
+}

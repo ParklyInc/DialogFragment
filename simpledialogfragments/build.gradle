@@ -1,0 +1,47 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 32
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 32
+        versionCode rootProject.ext['VERSION_NR']
+        versionName rootProject.ext['VERSION']
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles 'proguard-rules.pro'
+            consumerProguardFiles 'proguard-rules.pro'
+        }
+    }
+    lint {
+        checkDependencies true
+        disable 'MissingTranslation'
+    }
+}
+
+dependencies {
+    debugImplementation project(':lintchecks')
+    lintChecks project(':lintchecks')
+    lintPublish project(':lintchecks')
+
+    testImplementation  'junit:junit:4.13.2'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation 'com.alimuzaffar.lib:pinentryedittext:2.0.6'
+}
+
+
+
+// for publication to maven central via Sonatype nexus
+ext {
+    PUBLISH_GROUP_ID = 'io.github.parkly'
+    PUBLISH_ARTIFACT_ID = 'simpledialogfragments'
+    PUBLISH_VERSION = rootProject.ext['VERSION']
+}
+
+apply from: 'publish.gradle'
+

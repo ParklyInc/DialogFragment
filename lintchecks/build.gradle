@@ -1,0 +1,21 @@
+apply plugin: 'java-library'
+apply plugin: 'com.android.lint'
+
+dependencies {
+    // If the Gradle plugin version is X.Y.Z, then the Lint library version is X+23.Y.Z
+    compileOnly "com.android.tools.lint:lint-api:30.1.1"
+    compileOnly "com.android.tools.lint:lint-checks:30.1.1"
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+jar {
+    manifest {
+        // Only use the "-v2" key here if your checks have been updated to the
+        // new 3.0 APIs (including UAST)
+        attributes("Lint-Registry-v2": "eltos.lintchecks.SimpleDialogFragmentIssueRegistry")
+    }
+}

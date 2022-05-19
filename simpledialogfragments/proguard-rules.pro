@@ -1,0 +1,15 @@
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in C:\Android\sdk/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the proguardFiles
+# directive in build.gradle.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# Keep TAG field, so it can be found by the SimpleDialog.show() method
+-keepclassmembers class * extends parkly.simpledialogfragment.SimpleDialog {
+    public static final java.lang.String TAG;
+}
