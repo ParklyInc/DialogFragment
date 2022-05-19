@@ -50,13 +50,13 @@ Check the [release page](https://github.com/ParklyInc/SimpleDialogFragments/rele
 In your module level ``build.gradle`` when using [mavenCentral](https://search.maven.org/artifact/io.github.ParklyInc/simpledialogfragments):
 ```groovy
 dependencies {
-    implementation 'io.github.parkly:simpledialogfragments:1.0.+'
+    implementation 'io.github.parkly:SimpleDialog:1.0.+'
 }
 ```
-or if using [JitPack](https://jitpack.io/#ParklyInc/SimpleDialogFragments):
+or if using [JitPack](https://jitpack.io/#ParklyInc/SimpleDialog):
 ```groovy
 dependencies {
-    implementation 'com.github.parkly:simpledialogfragments:v1.0.0'
+    implementation 'com.github.parkly:SimpleDialog:v1.0.0'
 }
 ```
 
