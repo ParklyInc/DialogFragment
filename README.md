@@ -1,6 +1,4 @@
-<p align="center"><img src="media/logo_named_right.png" alt="" width="50%"></p>
-
-# SimpleDialogFragments
+# DialogFragments
 
 [![API 14+](https://img.shields.io/badge/API-14+-green.svg)](https://developer.android.com/about/dashboards/index.html#Platform)
 [![Maven Central](https://img.shields.io/maven-central/v/io.github.ParklyInc/simpledialogfragments.svg)](https://search.maven.org/artifact/io.github.ParklyInc/simpledialogfragments)
@@ -16,7 +14,7 @@
 
 <img width="40%" align="right" src="https://github.com/ParklyInc/SimpleDialogFragments/raw/main/media/screenshot.png"/>
 
-SimpleDialogFragments Library is a collection of easy to use and extendable DialogFragment's for Android.
+DialogFragments Library is a collection of easy to use and extendable DialogFragment's for Android.
 It is fully compatible with rotation changes and can be implemented with only a few lines of code.
 
 A new approach of result handling ensures data integrity over rotation changes, that many other libraries lack.
