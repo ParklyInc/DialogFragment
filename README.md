@@ -3,11 +3,11 @@
 # SimpleDialogFragments
 
 [![API 14+](https://img.shields.io/badge/API-14+-green.svg)](https://developer.android.com/about/dashboards/index.html#Platform)
-[![Maven Central](https://img.shields.io/maven-central/v/io.github.eltos/simpledialogfragments.svg)](https://search.maven.org/artifact/io.github.eltos/simpledialogfragments)
-[![JitPack](https://jitpack.io/v/eltos/SimpleDialogFragments.svg)](https://jitpack.io/#eltos/SimpleDialogFragments)
-[![Code Climate Rating](https://codeclimate.com/github/eltos/SimpleDialogFragments/badges/gpa.svg)](https://codeclimate.com/github/eltos/SimpleDialogFragments)
-[![Github CI](https://github.com/eltos/SimpleDialogFragments/actions/workflows/build.yml/badge.svg)](https://github.com/eltos/SimpleDialogFragments/actions/workflows/build.yml)
-[![License](https://img.shields.io/github/license/eltos/simpledialogfragments.svg)](https://github.com/eltos/SimpleDialogFragments#license)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.ParklyInc/simpledialogfragments.svg)](https://search.maven.org/artifact/io.github.ParklyInc/simpledialogfragments)
+[![JitPack](https://jitpack.io/v/ParklyInc/SimpleDialogFragments.svg)](https://jitpack.io/#ParklyInc/SimpleDialogFragments)
+[![Code Climate Rating](https://codeclimate.com/github/ParklyInc/SimpleDialogFragments/badges/gpa.svg)](https://codeclimate.com/github/ParklyInc/SimpleDialogFragments)
+[![Github CI](https://github.com/ParklyInc/SimpleDialogFragments/actions/workflows/build.yml/badge.svg)](https://github.com/eltos/SimpleDialogFragments/actions/workflows/build.yml)
+[![License](https://img.shields.io/github/license/ParklyInc/simpledialogfragments.svg)](https://github.com/ParklyInc/SimpleDialogFragments#license)
 
 
 
@@ -23,7 +23,7 @@ A new approach of result handling ensures data integrity over rotation changes, 
 
 
 
-|[API](https://eltos.github.io/SimpleDialogFragments)|[Wiki](https://github.com/eltos/SimpleDialogFragments/wiki)|[Releases](https://github.com/eltos/SimpleDialogFragments/releases)|[Screenshots](https://github.com/eltos/SimpleDialogFragments/wiki/Showcase)|[Demo APK](https://github.com/eltos/SimpleDialogFragments/releases/download/v3.4/testApp.apk)|
+|[API](https://eltos.github.io/SimpleDialogFragments)|[Wiki](https://github.com/ParklyInc/SimpleDialogFragments/wiki)|[Releases](https://github.com/ParklyInc/SimpleDialogFragments/releases)|[Screenshots](https://github.com/ParklyInc/SimpleDialogFragments/wiki/Showcase)|[Demo APK](https://github.com/ParklyInc/SimpleDialogFragments/releases/download/v3.4/testApp.apk)|
 |-|-|-|-|-|
 
 
@@ -47,18 +47,18 @@ A new approach of result handling ensures data integrity over rotation changes, 
 
 ## Usage
 
-Check the [release page](https://github.com/eltos/SimpleDialogFragments/releases) for the latest and older versions:
+Check the [release page](https://github.com/ParklyInc/SimpleDialogFragments/releases) for the latest and older versions:
 
-In your module level ``build.gradle`` when using [mavenCentral](https://search.maven.org/artifact/io.github.eltos/simpledialogfragments):
+In your module level ``build.gradle`` when using [mavenCentral](https://search.maven.org/artifact/io.github.ParklyInc/simpledialogfragments):
 ```groovy
 dependencies {
-    implementation 'io.github.eltos:simpledialogfragments:3.6'
+    implementation 'io.github.parkly:simpledialogfragments:1.0.+'
 }
 ```
-or if using [JitPack](https://jitpack.io/#eltos/SimpleDialogFragments):
+or if using [JitPack](https://jitpack.io/#ParklyInc/SimpleDialogFragments):
 ```groovy
 dependencies {
-    implementation 'com.github.eltos:simpledialogfragments:v3.6'
+    implementation 'com.github.parkly:simpledialogfragments:v1.0.0'
 }
 ```
 
@@ -73,11 +73,11 @@ SimpleDialog.build()
             .show(this);
 ```
 
-Check the [wiki pages](https://github.com/eltos/SimpleDialogFragments/wiki) for instructions and examples on how to build the different dialogs available.
+Check the [wiki pages](https://github.com/ParklyInc/SimpleDialogFragments/wiki) for instructions and examples on how to build the different dialogs available.
 
 ### Receive Results
 Supply a tag when showing the dialog and let the hosting Activity or Fragment implement the `SimpleDialog.OnDialogResultListener`.  
-For details, please refere to the [wiki pages](https://github.com/eltos/SimpleDialogFragments/wiki/SimpleDialog#receiving-results).
+For details, please refere to the [wiki pages](https://github.com/ParklyInc/SimpleDialogFragments/wiki/SimpleDialog#receiving-results).
 
 ```java
 @Override
@@ -105,7 +105,7 @@ public boolean onResult(@NonNull String dialogTag, int which, @NonNull Bundle ex
 
 ## Extensions
 Known extensions and projects using this library:
-- [File/Folder picker](https://github.com/isabsent/FilePicker) (see [#30](https://github.com/eltos/SimpleDialogFragments/issues/30))
+- [File/Folder picker](https://github.com/isabsent/FilePicker) (see [#30](https://github.com/ParklyInc/SimpleDialogFragments/issues/30))
 
 ## License
 
